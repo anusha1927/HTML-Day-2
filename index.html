@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HTML Day 2</title>
+	</head>
+	<body>
+		<h1>HTML Day 2</h1>
+		<hr />
+		<h2>Explain br tags?</h2>
+		<p>
+			The br tag in HTML document is used to create a line break in a text. It
+			is an empty tag which means it does not need an end tag like < / br >.
+		</p>
+		<h2>Explain how many different types of lists we have in html?</h2>
+		<p>3 types</p>
+		<pre>
+			ol ---> ordered lists  1, A, a, I, i  
+			ul ---> unordered lists disc, circle, square, none
+			dl ---> discription lists
+			< dl >---description term---
+				< dt > 
+					< dd >---description details---< / dd >
+				< / dt >
+			< / dl >
+		</pre
+		>
+		<h2>What are semantic tags?</h2>
+		<pre>
+			A semantic element clearly describes its meaning to both the browser and the developer.
+			Improves readability.
+
+			Examples of non-semantic elements: < div > and < span > - Tells nothing about its content.
+
+			Examples of semantic elements: < form >, < header >, < nav >, < section >, < table >, and < article > - Clearly defines its content.
+		</pre
+		>
+		<h2>Write code to create an ordered list with roman numbers?</h2>
+		<pre>
+		< ol type="I" > 
+			< li >one< / li > 
+			< li >two< / li > 
+		< / ol >
+		</pre
+		>
+		<ol type="I">
+			<li>one</li>
+			<li>two</li>
+		</ol>
+		<h2>Write code to create an unordered list with circle?</h2>
+		<pre>
+		< ul type="circle" >
+			< li >one< / li > 
+			< li >two< / li >
+		< / ul >
+		</pre
+		>
+		<ul type="circle">
+			<li>one</li>
+			<li>two</li>
+		</ul>
+		<h2>
+			Write code to create an nested list that contain order list(numeric) first
+			then unordered list (disc) then again one unorder list (square)?
+		</h2>
+		<pre>
+			< ol >
+				< li >one< / li >
+				< li >one< / li >
+				< li >one< / li >				
+				< ul type="disc" >
+					< li >one< / li >
+					< li >one< / li >
+					< li >one< / li >
+					< ul >
+						< li >one< / li >
+						< li >one< / li >
+						< li >one< / li >
+					< / ul >
+				< / ul >
+			< / ol >
+		</pre
+		>
+		<ol>
+			<li>one</li>
+			<li>one</li>
+			<li>one</li>
+			<ul type="disc">
+				<li>one</li>
+				<li>one</li>
+				<li>one</li>
+				<ul>
+					<li>one</li>
+					<li>one</li>
+					<li>one</li>
+				</ul>
+			</ul>
+		</ol>
+		<h2>Write code to create a link to https://www.prepbytes.com</h2>
+		<p>< a href="https://www.prepbytes.com" >Prepbytes< / a ></p>
+		<p><a href="https://www.prepbytes.com">Prepbytes</a></p>
+	</body>
+</html>
